@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Place</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .hero {
+            background-image: url("img\sports_hero.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .facilities {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .facility {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 300px;
+        }
+        .facility img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .contact {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sports Place</h1>
+    </header>
+
+    <nav>
+        <a href="#facilities">Facilities</a>
+        <a href="#menu">Menu Card</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Your Ultimate Sports Destination</h2>
+    </div>
+
+    <div class="content">
+        <h2 id="facilities">Facilities</h2>
+        <div class="facilities">
+            <div class="facility">
+                <img src="img\sports_hero.jpg" alt="">
+                <h3>Basketball Court</h3>
+                <p>State-of-the-art basketball court with seating for spectators.</p>
+            </div>
+            <div class="facility">
+                <img src="img\pool.jpg" alt="">
+                <h3>Swimming Pool</h3>
+                <p>Olympic-sized swimming pool with professional lifeguards.</p>
+            </div>
+            <div class="facility">
+                <img src="img\fitness.jpg" alt="Gym">
+                <h3>Fitness Center</h3>
+                <p>Fully equipped gym with personal trainers available.</p>
+            </div>
+        </div>
+
+        <h2 id="menu">Menu Card</h2>
+        <ul>
+            <li>Protein Smoothies - $5</li>
+            <li>Energy Bars - $3</li>
+            <li>Salads - $7</li>
+            <li>Grilled Chicken Sandwich - $8</li>
+        </ul>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> 123 Sports Avenue, Hyderabad</p>
+        <p><strong>Phone:</strong> +91-9876543210</p>
+        <p><strong>Email:</strong> contact@sportsplace.com</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sports Place. All rights reserved.</p>
+    </footer>
+</body>
+</html>
